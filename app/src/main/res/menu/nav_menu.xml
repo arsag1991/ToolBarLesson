@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   tools:showIn = "navigation_view"> //отображать только в редакторе
+    <item android:title="Category 1">
+        <menu>
+            <item
+                android:title="Sync_nav"
+                android:id="@+id/sync_nav1"
+                android:icon="@drawable/ic_sync"
+                />
+            <item
+                android:title="Save_nav"
+                android:id="@+id/save_nav1"
+                android:icon="@drawable/ic_save"
+                />
+            <item
+                android:title="Search_nav"
+                android:id="@+id/search_nav1"
+                android:icon="@drawable/ic_search"
+                />
+            <item
+                android:title="Delete_nav"
+                android:id="@+id/delete_nav1"
+                android:icon="@drawable/ic_delete"
+                />
+        </menu>
+    </item>
+    <item android:title="Category 2">
+        <menu>
+            <item
+                android:title="Sync_nav2"
+                android:id="@+id/sync_nav2"
+                android:icon="@drawable/ic_sync"
+                />
+            <item
+                android:title="Save_nav2"
+                android:id="@+id/save_nav2"
+                android:icon="@drawable/ic_save"
+                />
+            <item
+                android:title="Search_nav2"
+                android:id="@+id/search_nav2"
+                android:icon="@drawable/ic_search"
+                />
+            <item
+                android:title="Delete_nav2"
+                android:id="@+id/delete_nav2"
+                android:icon="@drawable/ic_delete"
+                />
+        </menu>
+    </item>
+
+</menu>
